@@ -9,8 +9,6 @@
         "registry"
     ],
     "addons": [
-        "bugsnag",
-        "newrelic",
         "heroku-postgresql"
     ],
     "env": {
