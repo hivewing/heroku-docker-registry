@@ -2,7 +2,7 @@
 common: &common
     issue: '"docker-registry server"'
     # Default log level is info
-    loglevel: _env:LOGLEVEL:trace
+    loglevel: _env:LOGLEVEL:DEBUG
     # Enable debugging (additional informations in the output of the _ping endpoint)
     debug: _env:DEBUG:true
     # By default, the registry acts standalone (eg: doesn't query the index)
